@@ -80,6 +80,47 @@ body{
     font-size: 50px;
 }
 .discriptions{
-    font-size: 20px;
+    font-size: 18px;
     margin: 10px 0px;
+}
+
+/* end banner section  */
+
+/* star aout us section  */
+
+.aboutus-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutus-title{
+    font-size: 30px;
+}
+.ablut-us{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+}
+.aboutus-img{
+    width: 300px;
+}
+
+.button-aboutus{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+    outline: none;
+    cursor: pointer;
+}
+
+.button-aboutus:hover{
+    color: red;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid red;
 }
