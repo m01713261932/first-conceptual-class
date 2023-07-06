@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* star menu style  */
+.nav-div{
+    display: flex;
+    background-color: rgb(77, 75, 75);
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-logo-img{
+    width: 150px;
+    cursor: pointer;
+    
+}
+
+.nav-menu{
+    display: flex;
+    list-style-type: none;
+  }
+
+.menu-item{
+    margin-left: 10px;
+    font-size: 15px;
+    color: white;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.menu-item:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+/* end menu style  */
+
+/* star banner style  */
+
+.banner-container{
+    background-image: url(./images/background.png), linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.banner-photo-img{
+    width: 300px;
+}
+
+.button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.title{
+    font-size: 50px;
+}
+.discriptions{
+    font-size: 20px;
+    margin: 10px 0px;
+}
