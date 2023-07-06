@@ -39,9 +39,10 @@ body{
 
 .menu-item:hover{
     cursor: pointer;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: red;
     border-radius: 5px;
+    transition: .5s;
 }
 /* end menu style  */
 
@@ -70,6 +71,7 @@ body{
     border: none;
     outline: none;
     cursor: pointer;
+    transition: .5s;
 }
 
 .button:hover{
@@ -85,6 +87,7 @@ body{
 }
 
 /* end banner section  */
+
 
 /* star aout us section  */
 
@@ -105,6 +108,10 @@ body{
 .aboutus-img{
     width: 300px;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 
 .button-aboutus{
     margin-top: 10px;
@@ -115,6 +122,7 @@ body{
     border: 2px solid red;
     outline: none;
     cursor: pointer;
+    transition: .5s;
 }
 
 .button-aboutus:hover{
@@ -124,3 +132,4 @@ body{
     cursor: pointer;
     border: 2px solid red;
 }
+/* end aout us section  */
