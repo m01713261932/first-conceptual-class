@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
 /* star menu style  */
-.nav-div{
+.nav-div {
     display: flex;
     background-color: rgb(77, 75, 75);
     padding: 20px;
@@ -18,18 +18,18 @@ body{
     align-items: center;
 }
 
-.nav-logo-img{
+.nav-logo-img {
     width: 150px;
     cursor: pointer;
-    
+
 }
 
-.nav-menu{
+.nav-menu {
     display: flex;
     list-style-type: none;
-  }
+}
 
-.menu-item{
+.menu-item {
     margin-left: 10px;
     font-size: 15px;
     color: white;
@@ -38,18 +38,19 @@ body{
 }
 
 
-.menu-item:hover{
+.menu-item:hover {
     cursor: pointer;
     color: white;
     background-color: red;
     border-radius: 5px;
     transition: .5s;
 }
+
 /* end menu style  */
 
 /* star banner style  */
 
-.banner-container{
+.banner-container {
     background-image: url(./images/background.png), linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
     color: white;
     display: flex;
@@ -59,11 +60,11 @@ body{
     height: 100vh;
 }
 
-.banner-photo-img{
+.banner-photo-img {
     width: 300px;
 }
 
-.button{
+.button {
     margin-top: 10px;
     padding: 10px 20px;
     border-radius: 5px;
@@ -75,14 +76,16 @@ body{
     transition: .5s;
 }
 
-.button:hover{
-    color:red;
+.button:hover {
+    color: red;
     background-color: white;
 }
-.title{
+
+.title {
     font-size: 50px;
 }
-.discriptions{
+
+.discriptions {
     font-size: 18px;
     margin: 10px 0px;
 }
@@ -92,30 +95,33 @@ body{
 
 /* star aout us section  */
 
-.aboutus-container{
+.aboutus-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 10px 0px;
 }
 
-.aboutus-title{
+.aboutus-title {
     font-size: 30px;
 }
-.h2-text{
+
+.h2-text {
     font-size: 40px;
     text-align: center;
     margin: 20px;
 }
-.aboutus-img{
+
+.aboutus-img {
     width: 300px;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
 
-.button-aboutus{
+.button-aboutus {
     margin-top: 10px;
     padding: 10px 20px;
     border-radius: 5px;
@@ -127,18 +133,19 @@ a{
     transition: .5s;
 }
 
-.button-aboutus:hover{
+.button-aboutus:hover {
     color: red;
     background-color: white;
     outline: none;
     cursor: pointer;
     border: 2px solid red;
 }
+
 /* end aout us section  */
 
 /* start services section  */
 
-.service-container-main{
+.service-container-main {
     display: flex;
     flex-direction: column;
     height: 50vh;
@@ -147,19 +154,19 @@ a{
     padding: 50px;
 }
 
-.services-container{
+.services-container {
     display: flex;
-    
+
     color: white;
     display: flex;
-    
+
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
 
 }
 
-.services{
+.services {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -169,30 +176,30 @@ a{
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.2);
     box-shadow: 4px 2px 105px gray;
-    
+
 }
 
-.services-img{
-    display:block;
+.services-img {
+    display: block;
     height: 70px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
 }
 
-h3{
+h3 {
     font-size: 30px;
     text-align: center;
     padding: 10px 0px;
 }
 
-.service-discriptions{
+.service-discriptions {
     text-align: center;
     text-align: center;
     padding: 20px 0px;
 }
 
-.button-servic{
+.button-servic {
     margin-top: 10px;
     padding: 10px 20px;
     border-radius: 5px;
@@ -203,15 +210,17 @@ h3{
     cursor: pointer;
     transition: .5s;
 }
-.button-servic:hover{
+
+.button-servic:hover {
     color: red;
     background-color: white;
 }
+
 /* end services section  */
 
 /* start footer section  */
 
-.footer-container{
+.footer-container {
     display: flex;
     justify-content: space-around;
     height: 60vh;
@@ -219,37 +228,40 @@ h3{
     background-color: black;
 }
 
-h4{
+h4 {
     font-size: 30px;
     margin-top: 100px;
 }
 
-.footer-logo-img{
+.footer-logo-img {
     width: 200px;
     margin-top: 100px;
-  }
+}
 
-  p{
+p {
     margin-top: 10px;
-  }
-  address{
-    line-height: 30px;
-  }
+}
 
-.footer-main{
+address {
+    line-height: 30px;
+}
+
+.footer-main {
     color: white;
     background-color: black;
     padding-bottom: 20px;
 }
-h5{
+
+h5 {
     margin-top: 10px;
     text-align: center;
 }
 
-hr{
+hr {
     display: block;
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
 }
+
 /* end footer section  */
